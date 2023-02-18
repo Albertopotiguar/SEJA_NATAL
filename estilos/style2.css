@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family= Itim & display = swap');
+
+:root {
+
+    --font-destaque: 'Itim', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    height: 95%;
+    font-size: 1em;
+}
+
+html, body {
+    width: 95vw;
+    height: 100vh;
+}
+
+header {
+    height: auto;
+}
+
+body {
+    margin: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,#eac3ce, #6e275f);
+    background-attachment: fixed;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: middle;
+}
+
+main {
+    margin:auto;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    width: 900px;
+    height: auto;
+    font-family: var(--font-destaque);
+}
+
+main h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+main h2 {
+    text-align: justify;
+    font-size: 40px;
+}
+
+main h3 {
+    text-align: center;
+    font-size: 25px;
+    background-color: #eac3ce;
+}
+
+main ul li {
+    list-style-type: none;
+}
+
+main ol {
+    padding: 10px;
+    font-size: 15px;
+}
+
+main p{
+    margin: 8px;
+}
+
+main h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    font-size: 13px;
+}
+
+table div {
+    display: block;
+}
+
+img.apoio {
+    height: 200px;
+    border-radius: 10px;
+    margin: 0px 130px;
+}
+
+iframe {
+    height: 600px;
+    width: 890px;
+}
+
+img.apoio {
+    height: 150px;
+    border-radius: 10px;
+    margin: 0px 120px;
+}
+

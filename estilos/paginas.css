@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+header {
+    height: auto;
+}
+
+body {
+    margin: 10px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,#eac3ce, #6e275f);
+    background-attachment: fixed;
+}
+
+section#principal {
+    margin: auto;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 50px;
+    width: 900px;
+    background-color: white;
+}
+
+section h1 {
+    font-size: 50px;
+}
+
+section h2 {
+    font-size: 35px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+section li {
+    font-size: 20px;
+    list-style: none;
+}
+

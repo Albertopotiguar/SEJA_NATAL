@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Itim & display = swap');
+
+
+:root {
+
+    --font-destaque: 'Itim', cursive;
+}
+
+.menu {
+    width: 94vw;
+    height: 50px;
+    background-color: #6e275f;
+    text-align: center;
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: var(--font-destaque);
+    font-weight: bold;
+
+}
+
+.menu ul li {
+    border-radius: 5px;
+    background-color: #6e275f;
+    color: white;
+    float: left;
+    width: 200px;
+    height: 50px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 13px;
+    position: relative;
+}
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover > ul {
+    display: block;
+}
+
+.menu ul li:hover {
+    background-color: #8f337b;
+    border-radius: 15px;
+}
+
+.menu ul ul ul {
+    margin-left: 172px;
+    top: 0px;
+    position: absolute;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: middle;
+}
