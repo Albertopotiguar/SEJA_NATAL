@@ -88,7 +88,9 @@ a {
 
 section.normal {
     border-radius: 10px;
+    height: 800PX;
     background-color: rgb(178, 202, 235);
+    box-shadow: 6px 6px 13px 0px black;
     color: #0c3770;
     height: 700px;
     padding: 20px;
@@ -98,6 +100,7 @@ section.normal {
 
 section.imagem {
     height: 700px;
+    margin: 5px;
     background-color: rgb(51, 51, 51);
     color: #08264e;
     box-shadow: 6px 6px 13px 0px black;
@@ -143,6 +146,28 @@ img.apoio {
 
 img.apoio#direita {
     float: right;
+}
+
+div.quadrado {
+    display: inline-block;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:50px;
+}
+
+div#q1 {
+    background-image: url(../imagens/FEB1.png);
+}
+
+div#q2 {
+    background-image: url(../imagens/joana_angelis.png);
+}
+
+div#q3 {
+    background-image: url(../imagens/fern1.png);
 }
 
 
