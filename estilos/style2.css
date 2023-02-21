@@ -95,14 +95,35 @@ img.apoio {
     margin: 0px 130px;
 }
 
-iframe {
-    height: 600px;
-    width: 890px;
-}
-
 img.apoio {
     height: 150px;
     border-radius: 10px;
     margin: 0px 120px;
 }
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #eac3ce;
+   }
+table {
+    margin: 70px;
+    width: 700px;
+    border-collapse:separate;
+    position:relative;
+   }
+   td, th {
+    border: 1px solid #eac3ce;
+    padding: 10px;
+    background-color: #eac3ce7c;
+   }
+   thead, tfoot {
+    background-color: #eac3ce;
+    color: white;
+   }
+   thead > tr > th {
+    position: sticky;
+    top: -1;
+    background-color: #6e275f;
+   }
 
